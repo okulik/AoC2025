@@ -6,6 +6,7 @@ import (
 	"github.com/okulik/AoC2025/pkg/day3"
 	"github.com/okulik/AoC2025/pkg/day4"
 	"github.com/okulik/AoC2025/pkg/day5"
+	"github.com/okulik/AoC2025/pkg/day6"
 )
 
 func main() {
@@ -13,7 +14,8 @@ func main() {
 	//d2()
 	//d3()
 	//d4()
-	d5()
+	//d5()
+	d6()
 }
 
 func d1() {
@@ -34,4 +36,8 @@ func d4() {
 
 func d5() {
 	day5.Run()
+}
+
+func d6() {
+	day6.Run()
 }
